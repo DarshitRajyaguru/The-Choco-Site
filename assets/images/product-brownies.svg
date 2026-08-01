@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Handmade brownies</title>
+  <desc id="desc">Stacked fudgy brownies with cocoa dust and chocolate crumbs.</desc>
+  <rect width="720" height="520" rx="32" fill="#f9ead5"/>
+  <ellipse cx="364" cy="424" rx="250" ry="50" fill="#301712" opacity=".22"/>
+  <path d="M190 288h224l-40 108H149l41-108Z" fill="#2b120e"/>
+  <path d="M289 192h242l-43 121H247l42-121Z" fill="#4b2319"/>
+  <path d="M221 246h241l-42 116H179l42-116Z" fill="#35160f"/>
+  <g fill="#7b432d">
+    <circle cx="267" cy="281" r="11"/>
+    <circle cx="338" cy="306" r="9"/>
+    <circle cx="405" cy="281" r="10"/>
+    <circle cx="369" cy="224" r="11"/>
+    <circle cx="463" cy="235" r="9"/>
+    <circle cx="259" cy="333" r="9"/>
+  </g>
+  <path d="M173 295c82 22 164 21 244 0" fill="none" stroke="#8f563b" stroke-width="7" opacity=".5"/>
+  <path d="M260 198c90 24 175 23 252-1" fill="none" stroke="#9b6044" stroke-width="7" opacity=".45"/>
+  <path d="M129 392c110 28 350 30 480-11" stroke="#b66c45" stroke-width="8" stroke-linecap="round" opacity=".28"/>
+</svg>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chocolate Mousse Jar | The ChocoCraze</title>
+    <meta name="description" content="Luxury product detail page for The ChocoCraze chocolate mousse jar with gallery, purchase panel, ingredients, nutrition and related products.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+  </head>
+  <body class="inner-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="../index.html">The ChocoCraze</a>
+        <div class="nav__links" id="primary-menu"><a href="../index.html">Home</a><a href="about.html">About</a><a href="products.html">Products</a><a href="gift-hampers.html">Gift Hampers</a><a href="occasions.html">Occasions</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></div>
+        <div class="nav__actions"><a class="icon-btn" href="wishlist.html" aria-label="Wishlist"><i data-lucide="heart"></i></a><a class="icon-btn" href="cart.html" aria-label="Cart"><i data-lucide="shopping-bag"></i></a><a class="btn" href="checkout.html">Order Now</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" aria-label="Open menu"><i data-lucide="menu"></i></button></div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="container">
+          <div class="breadcrumbs"><a href="../index.html">Home</a> / <a href="products.html">Products</a> / Chocolate Mousse Jar</div>
+          <h1>Chocolate Mousse Jar.</h1>
+          <p class="hero__copy">A layered homemade dessert with dark ganache, whipped cream and cocoa crumble.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container product-detail">
+          <div class="stack-lg">
+            <div class="product-gallery" data-gallery>
+              <a href="../assets/images/photo-mousse-jars.png"><img src="../assets/images/photo-mousse-jars.png" alt="Chocolate mousse jars"></a>
+              <a href="../assets/images/chococraze-hero.png"><img src="../assets/images/chococraze-hero.png" alt="Dessert table lifestyle view"></a>
+              <a href="../assets/images/photo-luxury-hamper.png"><img src="../assets/images/photo-luxury-hamper.png" alt="Chocolate hamper pairing"></a>
+            </div>
+            <div class="utility-panel">
+              <strong>Chocolate profile</strong>
+              <p>Silky, cold-set mousse with a deep cocoa finish. Best for party dessert tables, midnight gifting and fresh same-day cravings.</p>
+            </div>
+            <div class="add-on-grid">
+              <label class="add-on"><input type="checkbox">Add berry compote<br><strong>Rs. 49</strong></label>
+              <label class="add-on"><input type="checkbox">Gift spoon set<br><strong>Rs. 79</strong></label>
+              <label class="add-on"><input type="checkbox">Message card<br><strong>Free</strong></label>
+            </div>
+          </div>
+
+          <aside class="purchase-panel">
+            <span class="badge">Freshly Made Today</span>
+            <h2>Chocolate Mousse Jar</h2>
+            <div class="price">Rs. 249</div>
+            <p>Offer: Buy 4 jars and receive a complimentary message card.</p>
+            <label for="flavour">Flavour</label>
+            <select class="field" id="flavour"><option>Dark Chocolate</option><option>Berry Chocolate</option><option>Hazelnut Crunch</option></select>
+            <label for="quantity">Quantity</label>
+            <input class="field" id="quantity" type="number" min="1" value="1">
+            <div class="inline-actions mt-2"><a class="btn" href="cart.html">Add to Cart</a><a class="btn btn--ghost" href="wishlist.html">Wishlist</a></div>
+            <div class="shop-promise mt-2">
+              <span>Chilled delivery <i data-lucide="snowflake"></i></span>
+              <span>24-36 hour best taste <i data-lucide="clock"></i></span>
+              <span>No preservatives <i data-lucide="shield-check"></i></span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section section--cream">
+        <div class="container">
+          <div data-tabs>
+            <div class="tabs" role="tablist" aria-label="Product information">
+              <button class="tab" role="tab" aria-selected="true" aria-controls="desc">Description</button>
+              <button class="tab" role="tab" aria-selected="false" aria-controls="ingredients">Ingredients</button>
+              <button class="tab" role="tab" aria-selected="false" aria-controls="nutrition">Nutrition</button>
+              <button class="tab" role="tab" aria-selected="false" aria-controls="serving">Serving</button>
+            </div>
+            <div class="utility-panel panel" id="desc" role="tabpanel"><p>Rich, airy mousse layered with ganache and cocoa crunch. Ideal for party desserts, gifting and midnight cravings.</p></div>
+            <div class="utility-panel panel" id="ingredients" role="tabpanel" hidden><p>Dark chocolate, fresh cream, butter, cocoa, sugar and optional berry compote. Nut handling kitchen.</p></div>
+            <div class="utility-panel panel" id="nutrition" role="tabpanel" hidden><p>Nutrition varies by flavour and portion size. Ask for allergen and serving details before bulk orders.</p></div>
+            <div class="utility-panel panel" id="serving" role="tabpanel" hidden><p>Keep refrigerated. Best consumed within 24 to 36 hours. Serve chilled with a clean spoon.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <span class="section-kicker">Related and recently loved</span>
+          <h2 class="section-title">Complete the gift.</h2>
+          <div class="grid grid--3 mt-2">
+            <article class="product-card"><a class="product-card__media" href="product-detail.html"><img src="../assets/images/photo-brownie-box.png" alt="Brownies"></a><div class="product-card__body"><h3>Brownie Box</h3><p>Fudgy party-ready squares.</p><div class="product-card__meta"><span>Rs. 399</span><a href="cart.html">Add</a></div><div class="product-card__quick"><a href="product-detail.html">View</a><a href="checkout.html">Order</a></div></div></article>
+            <article class="product-card"><a class="product-card__media" href="gift-hampers.html"><img src="../assets/images/photo-luxury-hamper.png" alt="Gift hamper"></a><div class="product-card__body"><h3>Hamper Upgrade</h3><p>Add ribbons and a message card.</p><div class="product-card__meta"><span>Rs. 1,499</span><a href="gift-hampers.html">Build</a></div><div class="product-card__quick"><a href="gift-hampers.html">Build</a><a href="checkout.html">Order</a></div></div></article>
+            <article class="product-card"><a class="product-card__media" href="products.html"><img src="../assets/images/photo-celebration-cake.png" alt="Celebration cake"></a><div class="product-card__body"><h3>Celebration Cake</h3><p>For birthdays, anniversaries and surprises.</p><div class="product-card__meta"><span>Rs. 899</span><a href="contact.html">Plan</a></div><div class="product-card__quick"><a href="gallery.html">Ideas</a><a href="contact.html">Brief</a></div></div></article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-bottom">&copy; 2026 The ChocoCraze. Fresh desserts, packed with care.</div></footer>
+    <div class="sticky-buy"><a class="btn w-full" href="cart.html">Add Chocolate Mousse Jar</a></div>
+    <script defer src="https://cdn.jsdelivr.net/npm/lightgallery@2/lightgallery.umd.min.js"></script><script defer src="https://unpkg.com/lucide@latest"></script><script defer src="../assets/js/app.js"></script>
+  </body>
+</html>

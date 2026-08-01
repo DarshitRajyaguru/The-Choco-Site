@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Products | The ChocoCraze</title>
+    <meta name="description" content="Shop homemade chocolate mousse, brownies, cakes, handmade chocolates, seasonal specials and luxury gift hampers.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+  </head>
+  <body class="inner-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="../index.html">The ChocoCraze</a>
+        <div class="nav__links" id="primary-menu"><a href="../index.html">Home</a><a href="about.html">About</a><a href="products.html" aria-current="page">Products</a><a href="gift-hampers.html">Gift Hampers</a><a href="occasions.html">Occasions</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></div>
+        <div class="nav__actions"><a class="icon-btn" href="wishlist.html" aria-label="Wishlist"><i data-lucide="heart"></i></a><a class="icon-btn" href="cart.html" aria-label="Cart"><i data-lucide="shopping-bag"></i></a><a class="btn" href="checkout.html">Order Now</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" aria-label="Open menu"><i data-lucide="menu"></i></button></div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="container">
+          <div class="breadcrumbs"><a href="../index.html">Home</a> / Products</div>
+          <h1>Chocolate gifts and desserts, made fresh.</h1>
+          <p class="hero__copy">Browse jars, cakes, brownies, handmade chocolates, custom boxes and seasonal specials crafted for gifting and cravings.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="shop-intro">
+            <div>
+              <span class="section-kicker">Shop fresh</span>
+              <h2 class="section-title">Pick the sweet route, then customise the finish.</h2>
+              <p class="section-copy">Every card leads to cart, detail, hamper builder or enquiry. No dead ends, just fast movement toward an order.</p>
+            </div>
+            <div class="shop-promise">
+              <span>Freshly made <i data-lucide="sparkles"></i></span>
+              <span>Delivery slot guidance <i data-lucide="truck"></i></span>
+              <span>Custom notes accepted <i data-lucide="message-square-text"></i></span>
+            </div>
+          </div>
+
+          <div class="filter-bar" data-filter-group data-target="#product-grid">
+            <button class="is-active" data-filter="*">All</button>
+            <button data-filter=".desserts">Desserts</button>
+            <button data-filter=".cakes">Cakes</button>
+            <button data-filter=".gifts">Gifts</button>
+            <button data-filter=".festival">Festival</button>
+          </div>
+
+          <div id="product-grid" class="grid grid--3">
+            <article class="product-card desserts" data-category="desserts">
+              <span class="badge">Fresh</span>
+              <a class="product-card__media" href="product-detail.html"><img src="../assets/images/photo-mousse-jars.png" alt="Chocolate mousse jars" loading="lazy"></a>
+              <div class="product-card__body"><h3>Chocolate Mousse</h3><p>Silky chocolate cream with cocoa crumble.</p><div class="product-card__meta"><span>Rs. 249</span><a href="cart.html">Add</a></div><div class="product-card__quick"><a href="product-detail.html">View</a><a href="checkout.html">Order</a></div></div>
+            </article>
+            <article class="product-card desserts" data-category="desserts">
+              <a class="product-card__media" href="product-detail.html"><img src="../assets/images/photo-mousse-jars.png" alt="Strawberry cheesecake jar" loading="lazy"></a>
+              <div class="product-card__body"><h3>Strawberry Cheesecake</h3><p>Berry compote, cream cheese and cocoa base.</p><div class="product-card__meta"><span>Rs. 349</span><a href="cart.html">Add</a></div><div class="product-card__quick"><a href="product-detail.html">View</a><a href="checkout.html">Order</a></div></div>
+            </article>
+            <article class="product-card cakes" data-category="cakes">
+              <span class="badge">Best Seller</span>
+              <a class="product-card__media" href="product-detail.html"><img src="../assets/images/photo-celebration-cake.png" alt="Chocolate celebration cake" loading="lazy"></a>
+              <div class="product-card__body"><h3>Celebration Cake</h3><p>Chocolate ganache cake customised for events.</p><div class="product-card__meta"><span>Rs. 899</span><a href="cart.html">Add</a></div><div class="product-card__quick"><a href="product-detail.html">View</a><a href="contact.html">Customise</a></div></div>
+            </article>
+            <article class="product-card cakes" data-category="cakes">
+              <a class="product-card__media" href="contact.html"><img src="../assets/images/photo-celebration-cake.png" alt="Wedding cake" loading="lazy"></a>
+              <div class="product-card__body"><h3>Wedding Cake</h3><p>Elegant tiers, favour boxes and dessert tables.</p><div class="product-card__meta"><span>Enquire</span><a href="contact.html">Plan</a></div><div class="product-card__quick"><a href="gallery.html">Ideas</a><a href="contact.html">Brief</a></div></div>
+            </article>
+            <article class="product-card desserts" data-category="desserts">
+              <a class="product-card__media" href="product-detail.html"><img src="../assets/images/photo-brownie-box.png" alt="Brownie box" loading="lazy"></a>
+              <div class="product-card__body"><h3>Brownies</h3><p>Fudgy squares for parties and office gifting.</p><div class="product-card__meta"><span>Rs. 399</span><a href="cart.html">Add</a></div><div class="product-card__quick"><a href="product-detail.html">View</a><a href="checkout.html">Order</a></div></div>
+            </article>
+            <article class="product-card gifts festival" data-category="gifts festival">
+              <span class="badge">Gift Ready</span>
+              <a class="product-card__media" href="gift-hampers.html"><img src="../assets/images/photo-luxury-hamper.png" alt="Luxury gift hamper" loading="lazy"></a>
+              <div class="product-card__body"><h3>Luxury Gift Hamper</h3><p>Chocolate boxes, ribbons, message cards and add-ons.</p><div class="product-card__meta"><span>Rs. 1,499</span><a href="gift-hampers.html">Build</a></div><div class="product-card__quick"><a href="gift-hampers.html">Build</a><a href="checkout.html">Order</a></div></div>
+            </article>
+            <article class="product-card gifts" data-category="gifts">
+              <a class="product-card__media" href="product-detail.html"><img src="../assets/images/photo-luxury-hamper.png" alt="Custom chocolate box" loading="lazy"></a>
+              <div class="product-card__body"><h3>Custom Chocolate Box</h3><p>Assorted bonbons with optional name sleeves.</p><div class="product-card__meta"><span>Rs. 799</span><a href="cart.html">Add</a></div><div class="product-card__quick"><a href="product-detail.html">View</a><a href="contact.html">Brand</a></div></div>
+            </article>
+            <article class="product-card festival" data-category="festival">
+              <span class="badge">Seasonal</span>
+              <a class="product-card__media" href="gift-hampers.html"><img src="../assets/images/photo-luxury-hamper.png" alt="Festival chocolates" loading="lazy"></a>
+              <div class="product-card__body"><h3>Festival Chocolates</h3><p>Diwali, Christmas, Raksha Bandhan and Valentine's editions.</p><div class="product-card__meta"><span>Rs. 999</span><a href="cart.html">Add</a></div><div class="product-card__quick"><a href="gift-hampers.html">Hampers</a><a href="checkout.html">Order</a></div></div>
+            </article>
+            <article class="product-card gifts" data-category="gifts">
+              <a class="product-card__media" href="contact.html"><img src="../assets/images/photo-brownie-box.png" alt="Return gift brownie box" loading="lazy"></a>
+              <div class="product-card__body"><h3>Return Gifts</h3><p>Mini brownies, chocolate bites and party dessert boxes.</p><div class="product-card__meta"><span>Bulk</span><a href="contact.html">Enquire</a></div><div class="product-card__quick"><a href="gallery.html">Ideas</a><a href="contact.html">Quote</a></div></div>
+            </article>
+          </div>
+
+          <div class="section-cta">
+            <div><strong>Not sure what to order?</strong><p>Share the occasion, budget and delivery date. We will suggest the best product mix.</p></div>
+            <a class="btn" href="contact.html"><i data-lucide="wand-sparkles"></i>Get a Recommendation</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-grid"><div><h2>The ChocoCraze</h2><p>Premium homemade chocolates, cakes and gift hampers.</p></div><div><h3>Shop</h3><ul><li><a href="products.html">Products</a></li><li><a href="categories.html">Categories</a></li><li><a href="gift-hampers.html">Gift Hampers</a></li></ul></div><div><h3>Support</h3><ul><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li><li><a href="checkout.html">Checkout</a></li></ul></div><div><h3>Account</h3><ul><li><a href="wishlist.html">Wishlist</a></li><li><a href="my-account.html">My Account</a></li><li><a href="terms.html">Terms</a></li></ul></div></div><div class="container footer-bottom">&copy; 2026 The ChocoCraze.</div></footer>
+    <a class="floating-whatsapp btn" href="https://wa.me/910000000000" aria-label="Order on WhatsApp"><i data-lucide="message-circle"></i>WhatsApp</a>
+    <script defer src="https://unpkg.com/lenis@1.3.25/dist/lenis.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/isotope-layout@3/dist/isotope.pkgd.min.js"></script><script defer src="https://unpkg.com/lucide@latest"></script><script defer src="../assets/js/app.js"></script>
+  </body>
+</html>

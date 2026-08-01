@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Bakery",
+  "name": "The ChocoCraze",
+  "description": "Premium homemade chocolates, cakes, brownies, mousse jars and luxury gift hampers.",
+  "servesCuisine": "Desserts",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Chocolate desserts and gift hampers",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Chocolate Mousse Jar" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Celebration Cakes" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Luxury Chocolate Gift Hampers" } }
+    ]
+  }
+}

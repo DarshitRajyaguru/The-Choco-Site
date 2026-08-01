@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Chocolate mousse jar</title>
+  <desc id="desc">A premium chocolate mousse jar with cream and cocoa garnish.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff7ea"/>
+      <stop offset="1" stop-color="#d9a46f"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".55"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".4"/>
+    </linearGradient>
+    <linearGradient id="mousse" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#75412e"/>
+      <stop offset=".45" stop-color="#3b1d17"/>
+      <stop offset="1" stop-color="#190d0a"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="520" rx="32" fill="url(#bg)"/>
+  <ellipse cx="360" cy="430" rx="210" ry="42" fill="#2a1712" opacity=".2"/>
+  <path d="M218 164h284l-32 262c-3 28-28 50-56 50H306c-29 0-53-22-57-50L218 164Z" fill="url(#glass)" stroke="#fff8ed" stroke-opacity=".55" stroke-width="5"/>
+  <path d="M244 249h232l-18 157c-3 22-22 39-45 39H307c-22 0-42-17-44-39l-19-157Z" fill="url(#mousse)"/>
+  <path d="M252 294c61-24 124 28 191 0 13-5 27-9 42-9l-7 55c-66-21-134 20-229 0l3-46Z" fill="#b98557" opacity=".78"/>
+  <ellipse cx="360" cy="166" rx="145" ry="34" fill="#321813"/>
+  <ellipse cx="360" cy="154" rx="154" ry="42" fill="#7f4a35"/>
+  <path d="M267 157c49-36 141-45 199 0-12 30-188 33-199 0Z" fill="#3a1a14"/>
+  <path d="M302 118c12-24 56-20 52 18 24-32 69-16 58 22 28-6 50 15 32 40-44-20-124-21-170 0-19-30-1-51 28-42-12-18-10-31 0-38Z" fill="#fff0da"/>
+  <circle cx="411" cy="120" r="23" fill="#bd2143"/>
+  <circle cx="401" cy="111" r="9" fill="#e65775"/>
+  <path d="M423 102c16-19 30-27 45-24-2 19-19 30-42 31" fill="#336d41"/>
+  <g fill="#d5a25e">
+    <circle cx="321" cy="150" r="5"/>
+    <circle cx="340" cy="133" r="4"/>
+    <circle cx="382" cy="151" r="5"/>
+    <circle cx="434" cy="173" r="4"/>
+  </g>
+</svg>

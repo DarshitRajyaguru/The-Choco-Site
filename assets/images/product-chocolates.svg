@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Premium handmade chocolates</title>
+  <desc id="desc">A tray of assorted handmade chocolates with gold accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff8ec"/>
+      <stop offset="1" stop-color="#e0b799"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="520" rx="32" fill="url(#bg)"/>
+  <rect x="108" y="112" width="504" height="300" rx="22" fill="#2b1510"/>
+  <rect x="132" y="136" width="456" height="252" rx="14" fill="#462319"/>
+  <g fill="#1d0f0c" stroke="#9b6044" stroke-width="5">
+    <rect x="164" y="168" width="92" height="74" rx="16"/>
+    <rect x="314" y="168" width="92" height="74" rx="16"/>
+    <rect x="464" y="168" width="92" height="74" rx="16"/>
+    <circle cx="210" cy="313" r="42"/>
+    <circle cx="360" cy="313" r="42"/>
+    <circle cx="510" cy="313" r="42"/>
+  </g>
+  <g fill="none" stroke="#d8a85d" stroke-width="7" stroke-linecap="round">
+    <path d="M183 204c24-20 48-20 73 0"/>
+    <path d="M331 204c24-20 48-20 73 0"/>
+    <path d="M483 204c24-20 48-20 73 0"/>
+    <path d="M187 313c18-18 34-18 50 0"/>
+    <path d="M337 313c18-18 34-18 50 0"/>
+    <path d="M487 313c18-18 34-18 50 0"/>
+  </g>
+  <g fill="#f1ca77">
+    <circle cx="220" cy="187" r="5"/>
+    <circle cx="369" cy="185" r="5"/>
+    <circle cx="520" cy="188" r="5"/>
+    <circle cx="362" cy="303" r="6"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Chocolate celebration cake</title>
+  <desc id="desc">A dark chocolate celebration cake with gold garnish and berries.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff6e7"/>
+      <stop offset=".7" stop-color="#a86f53"/>
+      <stop offset="1" stop-color="#22100d"/>
+    </linearGradient>
+    <linearGradient id="cake" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#6e3828"/>
+      <stop offset=".5" stop-color="#321611"/>
+      <stop offset="1" stop-color="#160b09"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="520" rx="32" fill="url(#bg)"/>
+  <ellipse cx="360" cy="414" rx="260" ry="48" fill="#1b0e0b" opacity=".28"/>
+  <ellipse cx="360" cy="220" rx="218" ry="62" fill="#7a3e2d"/>
+  <path d="M142 219c7 111 8 152 25 185 31 60 357 61 388 0 17-33 18-74 25-185-57 82-382 82-438 0Z" fill="url(#cake)"/>
+  <path d="M156 259c58 45 359 45 408 0" fill="none" stroke="#b98758" stroke-width="18" opacity=".7"/>
+  <path d="M182 213c18 35 34 34 52-2 18 43 43 43 62-1 24 43 58 43 80 0 27 43 61 43 84 0 22 39 50 40 70 4" fill="none" stroke="#2b120d" stroke-width="32" stroke-linecap="round"/>
+  <g>
+    <circle cx="266" cy="141" r="23" fill="#b2183c"/>
+    <circle cx="445" cy="150" r="25" fill="#bd2143"/>
+    <circle cx="365" cy="131" r="20" fill="#c72848"/>
+    <path d="M281 122c17-18 34-24 51-17-8 20-25 29-50 27" fill="#426d3e"/>
+    <path d="M451 129c17-18 34-24 51-17-8 20-25 29-50 27" fill="#426d3e"/>
+  </g>
+  <g fill="#f0c475">
+    <circle cx="310" cy="186" r="6"/>
+    <circle cx="389" cy="178" r="5"/>
+    <circle cx="474" cy="196" r="6"/>
+    <circle cx="226" cy="195" r="5"/>
+    <circle cx="410" cy="250" r="5"/>
+  </g>
+</svg>

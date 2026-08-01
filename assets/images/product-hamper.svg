@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Luxury chocolate gift hamper</title>
+  <desc id="desc">A rose gold ribbon chocolate gift hamper with handmade chocolates.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff9f0"/>
+      <stop offset=".55" stop-color="#f2c7b7"/>
+      <stop offset="1" stop-color="#583026"/>
+    </linearGradient>
+    <linearGradient id="box" x1="0" x2="1">
+      <stop offset="0" stop-color="#2c1711"/>
+      <stop offset="1" stop-color="#6c3d2f"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0" x2="1">
+      <stop offset="0" stop-color="#f6c5aa"/>
+      <stop offset=".45" stop-color="#b76d5f"/>
+      <stop offset="1" stop-color="#ffd3b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="520" rx="32" fill="url(#bg)"/>
+  <ellipse cx="364" cy="420" rx="245" ry="48" fill="#20100d" opacity=".24"/>
+  <path d="M146 186h428l-36 232H181l-35-232Z" fill="url(#box)"/>
+  <path d="M138 166h444v54H138z" fill="#8e5b43"/>
+  <path d="M319 155h82v272h-82z" fill="url(#ribbon)"/>
+  <path d="M126 214c78-40 399-40 468 0v-48H126v48Z" fill="#c79564"/>
+  <path d="M315 151c-58-72-142-51-129 3 8 34 69 34 133 11" fill="url(#ribbon)"/>
+  <path d="M402 151c58-72 142-51 129 3-8 34-69 34-133 11" fill="url(#ribbon)"/>
+  <circle cx="359" cy="161" r="35" fill="#ebbea3"/>
+  <g fill="#2b130f">
+    <circle cx="225" cy="265" r="42"/>
+    <circle cx="319" cy="276" r="45"/>
+    <circle cx="428" cy="269" r="43"/>
+    <circle cx="507" cy="306" r="37"/>
+    <circle cx="254" cy="346" r="36"/>
+    <circle cx="374" cy="350" r="43"/>
+  </g>
+  <g fill="#d6a65f">
+    <circle cx="225" cy="250" r="6"/>
+    <circle cx="321" cy="260" r="7"/>
+    <circle cx="433" cy="251" r="6"/>
+    <circle cx="374" cy="331" r="7"/>
+  </g>
+  <path d="M174 219c126-32 265-32 371 0" fill="none" stroke="#fff6e6" stroke-opacity=".28" stroke-width="6"/>
+</svg>

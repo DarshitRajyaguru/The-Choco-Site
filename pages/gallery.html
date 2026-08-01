@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery | The ChocoCraze</title>
+    <meta name="description" content="View The ChocoCraze gallery of cakes, chocolates, hampers, kitchen process and packaging.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+  </head>
+  <body class="inner-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="../index.html">The ChocoCraze</a>
+        <div class="nav__links" id="primary-menu"><a href="../index.html">Home</a><a href="about.html">About</a><a href="products.html">Products</a><a href="gift-hampers.html">Gift Hampers</a><a href="occasions.html">Occasions</a><a href="gallery.html" aria-current="page">Gallery</a><a href="contact.html">Contact</a></div>
+        <div class="nav__actions"><a class="icon-btn" href="wishlist.html" aria-label="Wishlist"><i data-lucide="heart"></i></a><a class="icon-btn" href="cart.html" aria-label="Cart"><i data-lucide="shopping-bag"></i></a><a class="btn" href="checkout.html">Order Now</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" aria-label="Open menu"><i data-lucide="menu"></i></button></div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="container">
+          <div class="breadcrumbs"><a href="../index.html">Home</a> / Gallery</div>
+          <h1>Chocolate, packaging and kitchen moments.</h1>
+          <p class="hero__copy">A richer look at the gifts, cakes and dessert textures customers buy with their eyes first.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="shop-intro">
+            <div>
+              <span class="section-kicker">Visual menu</span>
+              <h2 class="section-title">Open a moment, then order the mood.</h2>
+            </div>
+            <div class="shop-promise">
+              <span>Tap any image to enlarge <i data-lucide="zoom-in"></i></span>
+              <span>Use filters for faster browsing <i data-lucide="sliders-horizontal"></i></span>
+            </div>
+          </div>
+
+          <div class="filter-bar" data-filter-group data-target="#gallery-grid">
+            <button class="is-active" data-filter="*">All</button>
+            <button data-filter=".cakes">Cakes</button>
+            <button data-filter=".hampers">Hampers</button>
+            <button data-filter=".desserts">Desserts</button>
+          </div>
+
+          <div class="gallery-spotlight" data-gallery>
+            <a class="hampers gallery-tile" data-category="hampers" href="../assets/images/photo-luxury-hamper.png"><img src="../assets/images/photo-luxury-hamper.png" alt="Luxury chocolate hamper"></a>
+            <div class="gallery-stack">
+              <a class="cakes gallery-tile" data-category="cakes" href="../assets/images/photo-celebration-cake.png"><img src="../assets/images/photo-celebration-cake.png" alt="Chocolate celebration cake"></a>
+              <a class="desserts gallery-tile" data-category="desserts" href="../assets/images/photo-mousse-jars.png"><img src="../assets/images/photo-mousse-jars.png" alt="Chocolate mousse jars"></a>
+            </div>
+          </div>
+
+          <div id="gallery-grid" class="masonry" data-gallery>
+            <a class="desserts" data-category="desserts" href="../assets/images/photo-brownie-box.png"><img src="../assets/images/photo-brownie-box.png" alt="Brownie gift box"></a>
+            <a class="hampers" data-category="hampers" href="../assets/images/photo-luxury-hamper.png"><img src="../assets/images/photo-luxury-hamper.png" alt="Chocolate box"></a>
+            <a class="cakes" data-category="cakes" href="../assets/images/chococraze-hero.png"><img src="../assets/images/chococraze-hero.png" alt="Luxury dessert table"></a>
+            <a class="desserts" data-category="desserts" href="../assets/images/photo-mousse-jars.png"><img src="../assets/images/photo-mousse-jars.png" alt="Mousse jar detail"></a>
+            <a class="cakes" data-category="cakes" href="../assets/images/photo-celebration-cake.png"><img src="../assets/images/photo-celebration-cake.png" alt="Cake decorating detail"></a>
+            <a class="hampers" data-category="hampers" href="../assets/images/photo-luxury-hamper.png"><img src="../assets/images/photo-luxury-hamper.png" alt="Gift hamper packaging"></a>
+          </div>
+
+          <div class="section-cta">
+            <div><strong>Seen something you love?</strong><p>Send the image reference with your date and budget. We will guide the order.</p></div>
+            <a class="btn" href="contact.html"><i data-lucide="message-circle"></i>Request This Look</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-bottom">&copy; 2026 The ChocoCraze.</div></footer>
+    <script defer src="https://cdn.jsdelivr.net/npm/lightgallery@2/lightgallery.umd.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/isotope-layout@3/dist/isotope.pkgd.min.js"></script><script defer src="https://unpkg.com/lucide@latest"></script><script defer src="../assets/js/app.js"></script>
+  </body>
+</html>
